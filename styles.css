@@ -44,12 +44,15 @@ body{
 .left{
     position: absolute;
     left: 20px;
-    color: red;
     margin: 10px;
     padding: 20px;
-    font-size: 2rem;
-    font-family: "Stylish", monospace;
     cursor: default;
+}
+
+.left img{
+    width: 70px;
+    border-radius: 50%;
+    transform: translateY(-30%);
 }
 
 .right{
@@ -338,17 +341,14 @@ body{
         object-fit: cover;
         object-position: center;
     }
+
     /* #introImage{
         display: block;
         height: 100vh;
         min-width: 100vw;
         position: relative;
     } */
-    .left{
-        font-size: 1.5rem;
-        /* padding: 5px;
-        margin: 0; */
-    }
+    
     .right{
         font-size: 1.3rem;
         /* padding: 5px;
@@ -384,13 +384,14 @@ body{
         padding-bottom: 100px;
     }
     .navPanel-Store{
-        height: 50px;
+        height: 60px;
     }
     .left{
-        font-size: 1.1rem;
+        transform: scale(0.6);
         padding: 5px;
         margin: 0;
     }
+
     .right{
         font-size: 0.9rem;
         padding: 5px;
@@ -437,7 +438,6 @@ body{
 @media (max-width: 300px)
 {
     .left{
-        font-size: 0.9rem;
         padding: 5px;
         margin: 0;
     }
