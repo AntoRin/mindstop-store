@@ -1,0 +1,474 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url(Images/GTA-V-Sunset-Rainy-Wallpapers-4K-by-EeveeonE-on-DeviantArt.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 0px 0px 40px 0px;
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.bgVideo{
+    position: relative;
+}
+
+#introVideo{
+    width: 100%;
+    height: 100vh;
+    /* min-width: 100vw; */
+    object-fit: cover;
+    object-position: center;
+}
+
+#introImage{
+    display: none;
+}
+
+.navPanel{
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.left{
+    position: absolute;
+    left: 20px;
+    color: red;
+    margin: 10px;
+    padding: 20px;
+    font-size: 2rem;
+    font-family: "Stylish", monospace;
+    cursor: default;
+}
+
+.right{
+    position: absolute;
+    right: 40px;
+    margin: 10px;
+    padding: 20px;
+    font-family: "Stylish", monospace;
+    font-size: 1.7rem;
+}
+
+.right a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.right a:hover{
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
+    color: blue;
+}
+
+.activeLink{
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
+    color: blue !important;
+}
+.siteTitle{
+    position: absolute;
+    display: block;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Proza Libre", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    cursor: default;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-shadow: 3px 3px red;
+}
+
+.banners{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+.banner{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.banners img{
+    margin: 1vw;
+}
+
+.clicker button{
+    position: absolute;
+    left: 50%;
+    bottom: 3.45%;
+    transform: translate(-50%, -50%);
+    padding: 2px 20px;
+    background: transparent;
+    color: white;
+    border: 3px solid rgb(5, 233, 203);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Rock Salt", monospace;
+    transition: 0.3s;
+}
+
+.clicker button:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+.promotions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.block{
+    background: rgba(128, 128, 128, 0.45);
+    width: 80%;
+    margin: 20px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.advertContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    margin: auto;
+}
+
+.advertContainer img{
+    order: 2;
+    width: 350px;
+}
+.advert{
+    order: 1;
+    position: relative;
+    margin: 50px auto 70px auto;
+}
+
+.advert p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.explore{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.advert a{
+    font-size: 1.3rem;
+    font-family: "Stylish", sans-serif;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px red;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(5, 233, 203);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    background: transparent;
+    transition: 0.3s ease-in;
+}
+
+.advert a:hover{
+    background: lightblue;
+    color: black;
+}
+
+.socialMedia{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right,rgba(59, 112, 255, 0.555),rgba(255, 73, 240, 0.459));
+    align-items: center;
+    border-top: 2px solid silver;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.terms{
+    margin: 10px 20px;
+}
+
+.terms a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+    transition: 0.2s;
+}
+
+.terms a:hover{
+    border-bottom: 2px solid white;
+}
+.copyright{
+    color: lightblue;
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin: 10px 20px;
+}
+
+.icon{
+    margin: 10px 20px;
+}
+
+.icons img{
+    width: auto;
+    height: 15px;
+    margin: 0 10px;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------STORE---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------ */
+
+.navPanel-Store{
+    /* position: absolute; */
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    display: inline-block;
+    background: rgba(30, 31, 37, 0.4);
+    width: 100%;
+    height: 100px;
+}
+
+.products{
+    margin: 100px 30px 30px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product{
+    position: relative;
+    margin: 20px;
+}
+
+/* .product img{
+    max-width: 500px;
+} */
+
+.overlay
+{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.884);
+    transition: 0.5s;
+}
+
+.product:hover .overlay{
+    height: 50%;
+    bottom: 0;
+}
+
+.overlayText{
+    position: relative;
+    top: 20%;
+    display: block;
+    margin: auto auto;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: lightblue;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------Media Queries-----------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 700px)
+{
+    #introVideo{
+        /* display: none; */
+        height: 100vh;
+        min-width: 100vw;
+        object-fit: cover;
+        object-position: center;
+    }
+    /* #introImage{
+        display: block;
+        height: 100vh;
+        min-width: 100vw;
+        position: relative;
+    } */
+    .left{
+        font-size: 1.5rem;
+        /* padding: 5px;
+        margin: 0; */
+    }
+    .right{
+        font-size: 1.3rem;
+        /* padding: 5px;
+        margin: 0; */
+    }
+    .siteTitle{
+       font-size: 1.8rem;
+       font-weight: 400;
+    }
+    .subtitle{
+        font-size: 1.2rem;
+    }
+    .banners{
+        margin: 30px;
+    }
+
+    .banner, .product{
+        transform: scale(1);
+    }
+    .advert p{
+        font-size: 30px;
+    }
+
+    .advert a{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (max-width: 500px)
+{
+    body{
+        padding-bottom: 100px;
+    }
+    .navPanel-Store{
+        height: 50px;
+    }
+    .left{
+        font-size: 1.1rem;
+        padding: 5px;
+        margin: 0;
+    }
+    .right{
+        font-size: 0.9rem;
+        padding: 5px;
+        margin: 0;
+    }
+    .siteTitle{
+       font-size: 1.3rem;
+       font-weight: 300;
+    }
+    .subtitle{
+        font-size: 0.9rem;
+    }
+    .banners{
+        margin: 5px;
+    }
+    .banner, .product{
+        transform: scale(0.8); 
+    }
+    .advertContainer img{
+        transform: scale(0.9);
+    }
+    .advert p{
+        font-size: 25px;
+    }
+
+    .advert a{
+        font-size: 0.9rem;
+    }
+
+    .icons{
+        flex-direction: column;
+    }
+
+    .terms a, .copyright{
+        font-size: 0.8rem;
+    }
+
+    .overlayText{
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 300px)
+{
+    .left{
+        font-size: 0.9rem;
+        padding: 5px;
+        margin: 0;
+    }
+    .right{
+        font-size: 0.7rem;
+        padding: 5px;
+        margin: 0;
+    }
+    .siteTitle{
+       font-size: 1rem;
+       font-weight: 200;
+    }
+    .subtitle{
+        font-size: 0.7rem;
+    }
+    .banners{
+        margin: 5px;
+    }
+    .banner, .product{
+        transform: scale(0.64);
+    }
+    .advert p{
+        font-size: 20px;
+    }
+    .advert a{
+        font-size: 0.6rem;
+    }
+
+    .icons img{
+        margin: 10px 15px;
+    }
+    .terms a, .copyright{
+        font-size: 0.6rem;
+    }
+}
