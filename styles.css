@@ -43,10 +43,9 @@ body{
 
 .left{
     position: absolute;
-    left: 20px;
+    left: 10px;
     margin: 10px;
     padding: 20px;
-    cursor: default;
 }
 
 .left img{
@@ -57,10 +56,10 @@ body{
 
 .right{
     position: absolute;
-    right: 40px;
+    right: 15px;
     margin: 10px;
     padding: 20px;
-    font-family: "Stylish", monospace;
+    font-family: "Stylish", sans-serif;
     font-size: 1.7rem;
 }
 
@@ -157,7 +156,7 @@ body{
     color: white;
     font-size: 1.3rem;
     font-family: sans-serif;
-    text-align: center;
+    text-align: justify;
 }
 
 .redirectContainer{
@@ -355,7 +354,7 @@ body{
         margin: 0; */
     }
     .siteTitle{
-       font-size: 1.8rem;
+       font-size: 1.9rem;
        font-weight: 400;
     }
     .subtitle{
@@ -394,12 +393,12 @@ body{
     }
 
     .right{
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin: 0; 
         right: 10px;
     }
     .siteTitle{
-       font-size: 1.3rem;
+       font-size: 1.35rem;
        font-weight: 300;
     }
     .subtitle{
