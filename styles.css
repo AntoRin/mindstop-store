@@ -390,11 +390,13 @@ body{
         transform: scale(0.6);
         padding: 5px;
         margin: 0;
+        left: 5px;
     }
 
     .right{
         font-size: 0.9rem;
         margin: 0; 
+        right: 10px;
     }
     .siteTitle{
        font-size: 1.3rem;
