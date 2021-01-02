@@ -160,24 +160,24 @@ body{
     text-align: center;
 }
 
-.advertContainer{
+.redirectContainer{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap-reverse;
     margin: auto;
 }
 
-.advertContainer img{
+.redirectContainer img{
     order: 2;
     width: 350px;
 }
-.advert{
+.redirect{
     order: 1;
     position: relative;
     margin: 50px auto 70px auto;
 }
 
-.advert p{
+.redirect p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
     font-size: 35px;
     font-weight: 500;
@@ -192,7 +192,7 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
-.advert a{
+.redirect a{
     font-size: 1.3rem;
     font-family: "Stylish", sans-serif;
     text-decoration: none;
@@ -206,7 +206,7 @@ body{
     transition: 0.3s ease-in;
 }
 
-.advert a:hover{
+.redirect a:hover{
     background: lightblue;
     color: black;
 }
@@ -394,8 +394,7 @@ body{
 
     .right{
         font-size: 0.9rem;
-        padding: 5px;
-        margin: 0;
+        margin: 0; 
     }
     .siteTitle{
        font-size: 1.3rem;
@@ -443,8 +442,6 @@ body{
     }
     .right{
         font-size: 0.7rem;
-        padding: 5px;
-        margin: 0;
     }
     .siteTitle{
        font-size: 1rem;
